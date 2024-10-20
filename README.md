@@ -1,4 +1,3 @@
-idk
 docs for apis:
     https://clinicaltrials.gov/data-api/about-api/search-areas#FunderTypeSearch
     https://clinicaltrials.gov/data-api/api#get-/studies
