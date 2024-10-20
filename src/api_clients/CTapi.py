@@ -1,10 +1,9 @@
 import requests
 
 class ClinicalTrialsClient:
-    BASE_URL = 'https://clinicaltrials.gov/api/v2'
 
     def fetch_studies(self, params):
-        response = requests.get(f'{self.BASE_URL}/studies', params=params)
+        response = requests.get('https://clinicaltrials.gov/api/v2/studies', params=params)
         if response.status_code == 200:
             return response.json()
         else:
