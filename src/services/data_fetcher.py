@@ -1,12 +1,13 @@
-from api_clients import ClinicalTrialsClient
-from api_clients import StockMarketClient
+from api_clients.CTapi import ClinicalTrialsClient
+from api_clients.Stockapi import StockMarketClient
 import requests
 from config import key_
 
 class DataFetcher:
     
     def get_ticker(self, company_name):
-    # god help me
+        # god help me
+        return
     
     def findCompanies(self, completionDate):
 
